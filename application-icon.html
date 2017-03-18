@@ -14,7 +14,7 @@
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 	<meta name="generator" content="Help &amp; Manual" />
 	<meta name="keywords" content="" />
-	<meta name="description" content="Coming soon." />
+	<meta name="description" content="Create a text file named AppIcon.rc, with the following content." />
 	<meta name="author" content="" />
 	<meta name="msapplication-tap-highlight" content="no" />
 	<link type="text/css" href="./css/hmprojectstyles.css" rel="stylesheet" />
@@ -147,7 +147,39 @@ var hmDevice={mobileSleepReload:true,compilehash:(function(){var c=0,b="&nbsp;Us
 	<div id="unclicker"></div>
 	<div id="hmpagebody_scroller">
 <!--ZOOMRESTART-->
-	<p class="p_Normal">Coming soon.</p>
+	<p class="p_Normal">Create a text file named AppIcon.rc, with the following content.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table style="background-color:#f8f8f8; border:solid thin #c0c0c0; border-spacing:0px;">
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; padding:0.4375rem; border:none"><p class="p_CodeExample"><span class="f_CodeExample">1&nbsp;ICON&nbsp;&quot;AppIcon.ico&quot;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">You will need an icon file named AppIcon.ico for this to work, but of course you can adjust the names to your liking.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Run the following command.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table style="background-color:#f8f8f8; border:solid thin #c0c0c0; border-spacing:0px;">
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; padding:0.4375rem; border:none"><p class="p_CodeExample"><span class="f_CodeExample">&quot;C:\Program&nbsp;Files&nbsp;(x86)\Windows&nbsp;Kits\10\bin\x64\rc.exe&quot;&nbsp;/v&nbsp;AppIcon.rc</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">If you can't find rc.exe in this location, then search for it in <span style="font-weight: bold;">C:\Program Files (x86)\Windows Kits</span>. If you still can't find it, then download Windows SDK from Microsoft.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">A file named AppIcon.res will be generated.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In Visual Studio, open the project properties. Select the <span style="font-weight: bold;">Application</span> page.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In the text box titled <span style="font-weight: bold;">Resource File</span>, type <span style="font-style: italic;">AppIcon.res</span> (or <span style="font-style: italic;">Images\AppIcon.res</span> if you put it there), and then close the project properties to save.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">An error message will appear, stating <span style="text-decoration: underline;">The resource file entered does not exist.</span> Ignore this. The error message will not reappear.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Rebuild. The executable will then have an application icon, and this shows in File Explorer. When running, this icon will also appear in Task Manager.</p>
 
 	</div> <!-- hmpagebody_scroller -->
 	</div> <!-- hmpagebody -->
@@ -205,7 +237,7 @@ var fouc=document.getElementById("fouc");fouc.parentNode.removeChild(fouc);
 /*! Help & Manual WebHelp 3 Script functions
 Copyright (c) 2014-2016 by Tim Green. All rights reserved. Contact tg@it-authoring.com
 */
-(function(){var b=sessionVariable.getPV("fontSize"),a=document.getElementsByTagName("html")[0];if(b!==null){a.style.fontSize=b+"%"}else{a.style.fontSize=hmDevice.baseFontSize+"%"}})();window.name="hmMainPage";var moveCheck=null,hmTocLoaded=false,hmTocWidth=0,xMessage=new xMsg("LANDING TOPIC");function initScripts(){hmPopupsObject={};hmFlags.isHmTopic=true;hmFlags.idxLoaded=false;hmFlags.schLoaded=false;hmFlags.searchSession=false;hmFlags.tocClicked=false;hmFlags.layoutTable=false;hmFlags.searchHighlight="";hmFlags.tocInitWidth=0;hmFlags.jumpHighlight=false;hmFlags.hmMainPage="index.html";hmFlags.hmTrackHost="http://www.helpandmanual.com/help/";hmFlags.hmProject="&nbsp;";hmFlags.hmDefaultPage="index.html";hmFlags.hmCurrentPage="application-icon.html";hmFlags.hmTOC="hmcontent.html";hmFlags.hmSearchPage="hmftsearch.html";hmFlags.hmIndexPage="hmkwindex.html";hmFlags.thisTopic="application-icon.html";hmFlags.lastTopic="index.html";hmFlags.topicExt=".html";hmFlags.defaultExt=".html";hmFlags.projName="GitHubSite";hmFlags.tDescription="Coming soon.";hmFlags.tKeywords="";hmFlags.hdFormat=false;hmFlags.contextID=(function(){var f;if(/^https??:\/\//im.test(document.location)){f=/contextid=\d*/.exec(window.location.search.substring(1))}else{f=/contextid=\d*/.exec(window.location.hash.substring(1))}return f!=null?f[0]:false})();function e(f){$.getScript(a[f],function(g,i,h){if(d<a.length-1){d++;e(d)}else{hmpage.defaulttopic="index.html";hmWebHelp.hmMainPageInit();hmpage.hmDescription="Coming soon.";hmpage.hmPicture=""===""?"":"./images/";}})}if(document.location.protocol.substr(0,4)!=="http"){window.History={options:{html4Mode:true}}}var d=0;var a=["./js/helpman_settings.js","./js/jquery.scrollTomin.js","./js/jquery.history.js","./js/hm_webhelp.js"];if(hmFlags.contextID){a.unshift("./js/hmcontextids.js")}if(hmDevice.phone){a.push("./js/mobileNav.js")}var c=document.getElementById("jqscript");c.src="./js/jquery.js";var b=setInterval(function(){if(window.jQuery){clearInterval(b);$.ajaxPrefilter("json script",function(f){f.crossDomain=true});if(hmDevice.embedded&&hmDevice.desktop){$("li#toggle_fullscreen").show()}e(0)}},100)}if(window.addEventListener){window.addEventListener("load",initScripts,false)}else{if(window.attachEvent){window.attachEvent("onload",initScripts)}else{window.onload=initScripts}};
+(function(){var b=sessionVariable.getPV("fontSize"),a=document.getElementsByTagName("html")[0];if(b!==null){a.style.fontSize=b+"%"}else{a.style.fontSize=hmDevice.baseFontSize+"%"}})();window.name="hmMainPage";var moveCheck=null,hmTocLoaded=false,hmTocWidth=0,xMessage=new xMsg("LANDING TOPIC");function initScripts(){hmPopupsObject={};hmFlags.isHmTopic=true;hmFlags.idxLoaded=false;hmFlags.schLoaded=false;hmFlags.searchSession=false;hmFlags.tocClicked=false;hmFlags.layoutTable=false;hmFlags.searchHighlight="";hmFlags.tocInitWidth=0;hmFlags.jumpHighlight=false;hmFlags.hmMainPage="index.html";hmFlags.hmTrackHost="http://www.helpandmanual.com/help/";hmFlags.hmProject="&nbsp;";hmFlags.hmDefaultPage="index.html";hmFlags.hmCurrentPage="application-icon.html";hmFlags.hmTOC="hmcontent.html";hmFlags.hmSearchPage="hmftsearch.html";hmFlags.hmIndexPage="hmkwindex.html";hmFlags.thisTopic="application-icon.html";hmFlags.lastTopic="index.html";hmFlags.topicExt=".html";hmFlags.defaultExt=".html";hmFlags.projName="GitHubSite";hmFlags.tDescription="Create a text file named AppIcon.rc, with the following content.";hmFlags.tKeywords="";hmFlags.hdFormat=false;hmFlags.contextID=(function(){var f;if(/^https??:\/\//im.test(document.location)){f=/contextid=\d*/.exec(window.location.search.substring(1))}else{f=/contextid=\d*/.exec(window.location.hash.substring(1))}return f!=null?f[0]:false})();function e(f){$.getScript(a[f],function(g,i,h){if(d<a.length-1){d++;e(d)}else{hmpage.defaulttopic="index.html";hmWebHelp.hmMainPageInit();hmpage.hmDescription="Create a text file named AppIcon.rc, with the following content.";hmpage.hmPicture=""===""?"":"./images/";}})}if(document.location.protocol.substr(0,4)!=="http"){window.History={options:{html4Mode:true}}}var d=0;var a=["./js/helpman_settings.js","./js/jquery.scrollTomin.js","./js/jquery.history.js","./js/hm_webhelp.js"];if(hmFlags.contextID){a.unshift("./js/hmcontextids.js")}if(hmDevice.phone){a.push("./js/mobileNav.js")}var c=document.getElementById("jqscript");c.src="./js/jquery.js";var b=setInterval(function(){if(window.jQuery){clearInterval(b);$.ajaxPrefilter("json script",function(f){f.crossDomain=true});if(hmDevice.embedded&&hmDevice.desktop){$("li#toggle_fullscreen").show()}e(0)}},100)}if(window.addEventListener){window.addEventListener("load",initScripts,false)}else{if(window.attachEvent){window.attachEvent("onload",initScripts)}else{window.onload=initScripts}};
 helpman_mailrecipient = 'Support Staff <support@ec-software.com>';
 hmGetUrlParams = function() {/*! 
 * Enter code to save URL parameters to session variables inside the if clause below.

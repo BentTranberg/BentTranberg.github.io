@@ -14,7 +14,7 @@
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 	<meta name="generator" content="Help &amp; Manual" />
 	<meta name="keywords" content="" />
-	<meta name="description" content="Coming soon." />
+	<meta name="description" content="It's a good idea to keep all icons and images in one or more folders." />
 	<meta name="author" content="" />
 	<meta name="msapplication-tap-highlight" content="no" />
 	<link type="text/css" href="./css/hmprojectstyles.css" rel="stylesheet" />
@@ -147,7 +147,31 @@ var hmDevice={mobileSleepReload:true,compilehash:(function(){var c=0,b="&nbsp;Us
 	<div id="unclicker"></div>
 	<div id="hmpagebody_scroller">
 <!--ZOOMRESTART-->
-	<p class="p_Normal">Coming soon.</p>
+	<p class="p_Normal">It's a good idea to keep all icons and images in one or more folders.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Right click on the project, and use <span style="font-weight: bold;">F# Power Tools / New Folder</span> to create a folder named <span style="font-weight: bold;">Images</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">On disk, place your icon in the <span style="font-weight: bold;">Images</span> folder.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Back in Visual Studio, right click on <span style="font-weight: bold;">Images</span>, and use <span style="font-weight: bold;">Add / Existing</span> Item, then show <span style="font-weight: bold;">All Files (.)**</span> to see the icon file so that you can select it, and then <span style="font-weight: bold;">Add</span> it.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Select the icon file, and set its <span style="font-weight: bold;">Build Action</span> to <span style="font-style: italic;">Resource</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In MainWindow.xaml, use the <span style="font-weight: bold;">Icon</span> attribute like this. Surrounding lines are shown for context.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table style="background-color:#f8f8f8; border:solid thin #c0c0c0; border-spacing:0px;">
+<tr style="text-align:left;vertical-align:top;">
+<td style="vertical-align:top; padding:0.4375rem; border:none"><p class="p_Normal"><span style="font-size: 0.82rem; font-family: Consolas;"> &nbsp; &nbsp; &nbsp; </span><span style="font-size: 0.82rem; font-family: Consolas; color: #ff0000;"> Title</span><span style="font-size: 0.82rem; font-family: Consolas; color: #0000ff;">=&quot;First Demo&quot;</span><span style="font-size: 0.82rem; font-family: Consolas; color: #ff0000;"> Height</span><span style="font-size: 0.82rem; font-family: Consolas; color: #0000ff;">=&quot;200&quot;</span><span style="font-size: 0.82rem; font-family: Consolas; color: #ff0000;"> Width</span><span style="font-size: 0.82rem; font-family: Consolas; color: #0000ff;">=&quot;300&quot;</span></p>
+<p class="p_Normal"><span style="font-size: 0.82rem; font-family: Consolas;"> &nbsp; &nbsp; &nbsp; </span><span style="font-size: 0.82rem; font-family: Consolas; color: #ff0000;"> Icon</span><span style="font-size: 0.82rem; font-family: Consolas; color: #0000ff;">=&quot;Images/MainWindow.ico&quot;&gt;</span></p>
+<p class="p_Normal"><span style="font-size: 0.82rem; font-family: Consolas;"> &nbsp;  </span><span style="font-size: 0.82rem; font-family: Consolas; color: #0000ff;">&lt;</span><span style="font-size: 0.82rem; font-family: Consolas; color: #a31515;">Canvas</span><span style="font-size: 0.82rem; font-family: Consolas; color: #ff0000;"> Name</span><span style="font-size: 0.82rem; font-family: Consolas; color: #0000ff;">=&quot;mainCanvas&quot;&gt;</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Before you run, do a <span style="font-weight: bold;">Rebuild</span>, and not just a <span style="font-weight: bold;">Build</span>. This is because Visual Studio doesn't always put the icon file into the executable unless you rebuild.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">It is the window, and not the application, that now has an icon. You will see the icon in the top left of the window at runtime, and you will see it in the task bar. The Task Manager and Windows File Explorer will not show this icon, because they display the application icon rather than the window icon.</p>
 
 	</div> <!-- hmpagebody_scroller -->
 	</div> <!-- hmpagebody -->
@@ -205,7 +229,7 @@ var fouc=document.getElementById("fouc");fouc.parentNode.removeChild(fouc);
 /*! Help & Manual WebHelp 3 Script functions
 Copyright (c) 2014-2016 by Tim Green. All rights reserved. Contact tg@it-authoring.com
 */
-(function(){var b=sessionVariable.getPV("fontSize"),a=document.getElementsByTagName("html")[0];if(b!==null){a.style.fontSize=b+"%"}else{a.style.fontSize=hmDevice.baseFontSize+"%"}})();window.name="hmMainPage";var moveCheck=null,hmTocLoaded=false,hmTocWidth=0,xMessage=new xMsg("LANDING TOPIC");function initScripts(){hmPopupsObject={};hmFlags.isHmTopic=true;hmFlags.idxLoaded=false;hmFlags.schLoaded=false;hmFlags.searchSession=false;hmFlags.tocClicked=false;hmFlags.layoutTable=false;hmFlags.searchHighlight="";hmFlags.tocInitWidth=0;hmFlags.jumpHighlight=false;hmFlags.hmMainPage="index.html";hmFlags.hmTrackHost="http://www.helpandmanual.com/help/";hmFlags.hmProject="&nbsp;";hmFlags.hmDefaultPage="index.html";hmFlags.hmCurrentPage="window-icon.html";hmFlags.hmTOC="hmcontent.html";hmFlags.hmSearchPage="hmftsearch.html";hmFlags.hmIndexPage="hmkwindex.html";hmFlags.thisTopic="window-icon.html";hmFlags.lastTopic="index.html";hmFlags.topicExt=".html";hmFlags.defaultExt=".html";hmFlags.projName="GitHubSite";hmFlags.tDescription="Coming soon.";hmFlags.tKeywords="";hmFlags.hdFormat=false;hmFlags.contextID=(function(){var f;if(/^https??:\/\//im.test(document.location)){f=/contextid=\d*/.exec(window.location.search.substring(1))}else{f=/contextid=\d*/.exec(window.location.hash.substring(1))}return f!=null?f[0]:false})();function e(f){$.getScript(a[f],function(g,i,h){if(d<a.length-1){d++;e(d)}else{hmpage.defaulttopic="index.html";hmWebHelp.hmMainPageInit();hmpage.hmDescription="Coming soon.";hmpage.hmPicture=""===""?"":"./images/";}})}if(document.location.protocol.substr(0,4)!=="http"){window.History={options:{html4Mode:true}}}var d=0;var a=["./js/helpman_settings.js","./js/jquery.scrollTomin.js","./js/jquery.history.js","./js/hm_webhelp.js"];if(hmFlags.contextID){a.unshift("./js/hmcontextids.js")}if(hmDevice.phone){a.push("./js/mobileNav.js")}var c=document.getElementById("jqscript");c.src="./js/jquery.js";var b=setInterval(function(){if(window.jQuery){clearInterval(b);$.ajaxPrefilter("json script",function(f){f.crossDomain=true});if(hmDevice.embedded&&hmDevice.desktop){$("li#toggle_fullscreen").show()}e(0)}},100)}if(window.addEventListener){window.addEventListener("load",initScripts,false)}else{if(window.attachEvent){window.attachEvent("onload",initScripts)}else{window.onload=initScripts}};
+(function(){var b=sessionVariable.getPV("fontSize"),a=document.getElementsByTagName("html")[0];if(b!==null){a.style.fontSize=b+"%"}else{a.style.fontSize=hmDevice.baseFontSize+"%"}})();window.name="hmMainPage";var moveCheck=null,hmTocLoaded=false,hmTocWidth=0,xMessage=new xMsg("LANDING TOPIC");function initScripts(){hmPopupsObject={};hmFlags.isHmTopic=true;hmFlags.idxLoaded=false;hmFlags.schLoaded=false;hmFlags.searchSession=false;hmFlags.tocClicked=false;hmFlags.layoutTable=false;hmFlags.searchHighlight="";hmFlags.tocInitWidth=0;hmFlags.jumpHighlight=false;hmFlags.hmMainPage="index.html";hmFlags.hmTrackHost="http://www.helpandmanual.com/help/";hmFlags.hmProject="&nbsp;";hmFlags.hmDefaultPage="index.html";hmFlags.hmCurrentPage="window-icon.html";hmFlags.hmTOC="hmcontent.html";hmFlags.hmSearchPage="hmftsearch.html";hmFlags.hmIndexPage="hmkwindex.html";hmFlags.thisTopic="window-icon.html";hmFlags.lastTopic="index.html";hmFlags.topicExt=".html";hmFlags.defaultExt=".html";hmFlags.projName="GitHubSite";hmFlags.tDescription="It's a good idea to keep all icons and images in one or more folders.";hmFlags.tKeywords="";hmFlags.hdFormat=false;hmFlags.contextID=(function(){var f;if(/^https??:\/\//im.test(document.location)){f=/contextid=\d*/.exec(window.location.search.substring(1))}else{f=/contextid=\d*/.exec(window.location.hash.substring(1))}return f!=null?f[0]:false})();function e(f){$.getScript(a[f],function(g,i,h){if(d<a.length-1){d++;e(d)}else{hmpage.defaulttopic="index.html";hmWebHelp.hmMainPageInit();hmpage.hmDescription="It's a good idea to keep all icons and images in one or more folders.";hmpage.hmPicture=""===""?"":"./images/";}})}if(document.location.protocol.substr(0,4)!=="http"){window.History={options:{html4Mode:true}}}var d=0;var a=["./js/helpman_settings.js","./js/jquery.scrollTomin.js","./js/jquery.history.js","./js/hm_webhelp.js"];if(hmFlags.contextID){a.unshift("./js/hmcontextids.js")}if(hmDevice.phone){a.push("./js/mobileNav.js")}var c=document.getElementById("jqscript");c.src="./js/jquery.js";var b=setInterval(function(){if(window.jQuery){clearInterval(b);$.ajaxPrefilter("json script",function(f){f.crossDomain=true});if(hmDevice.embedded&&hmDevice.desktop){$("li#toggle_fullscreen").show()}e(0)}},100)}if(window.addEventListener){window.addEventListener("load",initScripts,false)}else{if(window.attachEvent){window.attachEvent("onload",initScripts)}else{window.onload=initScripts}};
 helpman_mailrecipient = 'Support Staff <support@ec-software.com>';
 hmGetUrlParams = function() {/*! 
 * Enter code to save URL parameters to session variables inside the if clause below.
