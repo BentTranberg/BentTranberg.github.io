@@ -16,6 +16,11 @@ table, tr, th
 span.f_BodyText /* Body Text */
 {
 }
+span.f_BoxedSource /* Boxed Source */
+{
+ font-size: 0.91rem;
+ font-family: Arial,Helvetica,sans-serif;
+}
 span.f_Callouts /* Callouts */
 {
  font-size: 0.91rem;
@@ -126,6 +131,18 @@ p, p.p_Normal, div.p_Normal /* Normal */
 {
  font-size: 1.00rem;
  margin: 0px 0px 0.6250rem 0px;
+}
+.p_BoxedSource /* Boxed Source */
+{
+ font-size: 0.91rem;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-bottom: none;
+ background: #e5e5e5;
+ padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+ margin: 0px 0px 0px 0px;
 }
 .p_Callouts /* Callouts */
 {
