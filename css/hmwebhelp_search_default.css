@@ -1,0 +1,104 @@
+	html {margin:0; padding:0;}
+	body {
+		background:#ffffff; overflow: hidden; 
+		font-size: 100;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		color: #000000;
+		text-decoration: none;
+		margin: 0;  padding: 5px;
+	 }
+
+	 div#hmpageheader {
+		position: absolute;
+		top: 5px; left: 5px; right: 5px;
+		background-color: transparent;
+		}
+	div#hmpagebody {
+		position: absolute;
+		top: 2.29rem; left: 0; right: 0; bottom: 0;
+		overflow-y: auto;
+		border-style: solid;
+		border-color: #c0c0c0;
+		border-width: 1px 0 0 0;
+		padding: 5px 0 5px 5px;
+		margin: 0;
+		}
+.desktop {
+	display: initial;
+	}
+.tablet {
+	display: none;
+}
+.phone {
+	display: none;
+	}
+.noscript { 
+	display: none; 
+	}
+
+	.navbar   { font-size: 1.0rem; font-weight: bold; }
+	.navbar a { color: #000000; }
+	.navbar a:visited { color: #000000; }
+	.navheadlink { cursor: pointer; text-decoration: underline; }
+
+	.submit { font-size: 0.836rem; margin-bottom: 0.5rem;}
+.highlight { background: #ffff66; }
+.searchheading { font-size: 0.836rem; font-weight: bold; }
+.summary { font-size: 0.813rem; font-style: italic; }
+.results { font-size: 0.813rem; }
+.description { font-size: 0.9rem; }
+.context { font-size: 0.813rem; }
+.result_title { font-size: 0.9rem; font-weight: bold;}
+.result_title a:link {text-decoration: none;} 
+.result_title a:visited {color: blue;} 
+.result_title a:hover {text-decoration: underline;} 
+.infoline { font-size: 0.836rem; font-style: normal; color: #808080;}
+
+   .suggestion { font-size: 1.000rem; }
+   .category { color: #999999; }
+   .sorting { text-align: right; }
+   .zoom_searchform { font-size: 1.000rem; }
+   .zoom_results_per_page { font-size: 0.836rem; }
+   .zoom_match { font-size: 0.836rem;}
+   .zoom_categories { font-size: 0.836rem; }
+   .zoom_categories ul { display: inline; margin: 0px; padding: 0px;}
+   .zoom_categories li { display: inline; margin-left: 15px; list-style-type: none; }
+   input.zoom_button { margin-bottom: 0.5rem; }
+   input.zoom_searchbox { width: 60%; }
+   .result_image { float: left; display: block; }
+   .result_image img { margin: 10px; width: 80px; border: 0px; }
+   .result_block { margin-top: 15px; margin-bottom: 15px; clear: left; }
+   .result_altblock { margin-top: 15px; margin-bottom: 15px; clear: left; }
+   .result_pages { font-size: 1.000rem; }
+   .result_pagescount { font-size: 1.000rem; }
+   .searchtime { font-size: 0.836rem; } 
+   .recommended
+   {
+		background: #dfffbf;
+		border-top: 1px dotted #808080;
+		border-bottom: 1px dotted #808080;
+		margin-top: 15px;
+		margin-bottom: 15px;
+   }
+   .recommended_heading { float: right; font-weight: bold; }
+   .recommend_block { margin-top: 15px; margin-bottom: 15px; clear: left; }
+   .recommend_title { font-size: 1.000rem; }
+   .recommend_description { font-size: 1.000rem; color: #008000; }
+   .recommend_infoline { font-size: 0.836rem; font-style: normal; color: #808080;}
+	/* Phones */
+	 @media screen and
+	(device-width: 320px) and (device-height: 480px), /*iphone*/
+	(device-width: 320px) and (device-height: 568px), /*iphone*/
+	(max-device-width: 29rem) and (max-device-height: 52rem),
+	(max-device-height: 29rem) and (max-device-width: 52rem)
+	{
+		body
+		{
+		font-size: 110%;
+		}
+		.navbar {
+		font-size: 0.95rem;
+		}
+	 }
