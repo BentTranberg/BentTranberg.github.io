@@ -15,6 +15,7 @@ FinalBuilder | Old workhorse for build scripting. Not free. I want to replace it
 Help & Manual | Excellent tool for authoring online and offline help in various formats, including CHM, PDF and HTML. Not free.
 LINQPad | Lightweight F# scripting IDE with great functionality.
 MS-SQL Express Server | My pragmatic choice for database server. I don't really have much choice, and this is a workhorse in any case.
+SchemaZen | Produces "schema scripts" from MS-SQL databases, and vice versa. I use this to keep databases aligned with version controlled source.
 IconExperience | Great library of icons in various formats. Not free.
 Inno Setup | Free install builder for Windows. Absolutely perfect! Don't bother looking for something else.
 XMind | Free for some uses?
