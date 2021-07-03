@@ -1,5 +1,9 @@
 # F# development
 
+I have almost always worked in small teams that didn't at all have a proper development setup until I came along, so that it fell upon me to get things in order. That has given me a lot of experience. These days I work solo, and I get to choose everything about my development myself.
+
+I am a reasonably smart developer, but not too smart, so one of my secrets is to use tools and libraries that are _simple and effective_, so I can get my job done in spite of being lazy and not too smart. I can't stand it when some puffed up manager insists that we use Team Foundation because it's from Microsoft. Then I'll leave. I am always on the lookout for more effective tools, and switch as soon as it pays off. That's also why I use F#, and not C#.
+
 ## Essential Tools
 
 Tool | Description
@@ -15,6 +19,7 @@ IconExperience | Great library of icons in various formats. Not free.
 Inno Setup | Free install builder for Windows. Absolutely perfect! Don't bother looking for something else.
 XMind | Free for some uses?
 Zeta Resource Editor | Free tool for easier side-by-side language translations in standard resource files.
+Pivotal Tracker | Issue tracking. I used TestTrack Pro some years ago, but it's far too expensive to hold on to, and the GUI has become a bit bloated.
 
 ## Essential Libraries
 
