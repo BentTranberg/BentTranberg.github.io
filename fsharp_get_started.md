@@ -1,5 +1,9 @@
 # How to get started with professional F# development
 
+I have almost always worked in small teams that didn't at all have a proper development setup until I came along, so that it fell
+upon me to get things in order. That has given me a lot of experience. These days I work solo, and I get to choose everything about
+my development myself. The techniques, tools and libraries I tell you about, represents decades of experience.
+
 ## Learning F#
 
 There are plenty of books about F#, some good, some not so good. But what I lack from pretty much every book
