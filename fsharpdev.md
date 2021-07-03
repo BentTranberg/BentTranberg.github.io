@@ -17,9 +17,10 @@ XMind |
 Zeta Resource Editor |
 
 ## Essential Libraries
+
 Library | Description
 ------- | -----------
-SmartInspect
+SmartInspect |
 DevExpress WPF | WPF Components.
 BenchmarkDotNet |
 Bolero |
