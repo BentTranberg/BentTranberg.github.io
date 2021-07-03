@@ -6,7 +6,8 @@ There are plenty of books about F#, some good, some not so good. But what I lack
 that aims to teach F# from the ground up, is lazer-like focus on functional programming. That's unfortunate.
 I didn't grok F# until I was lucky enough to stumble on the site [F# for fun and profit](https://fsharpforfunandprofit.com/), by
 Scott Wlaschin. The site is practically a book, only on the web. (It's downloadable as a PDF.) I recommend
-you start there, to avoid wandering about in the desert like I did for a year or two.
+you start there, to avoid wandering about in the desert like I did for a year or two. I'm not saying a book
+can't be useful too, but you just don't want to miss that site.
 
 ## Getting help with your issues
 
@@ -32,11 +33,12 @@ the Community version.
 
 I also strongly recommend you start using a version control system as soon as possible. Perhaps you think this will
 be an extra burden while just starting to learn, but I don't think so. It doesn't take much time to realize just how
-efficient it is to be able to roll back mistakes, be able to see what you've done so far in a session, keep track
-of various developments, and not least have inherent backup of your every coding session. I use VisualSVN for
-version control, because I don't quite like Git. If you plan to become a professional developer that can work in
-any team, then Git is the way to go. On this site I will show how to use VisualSVN, since that's what I use and
-is used to. You can learn both of course if you want, in which case you'll find out why I like the old ways better.
+efficient it is to be able to see what you've been doing in the current sesstion, be able to roll back mistakes, keep track
+of various developments, and not least have a backup of every single step of your development.
+
+I use VisualSVN for version control, because I don't quite like Git. If you plan to become a professional developer that
+can work in any team, then Git is the way to go. On this site I will show how to use VisualSVN, since that's what I use and
+is used to. I'm not at all comfortable enough with Git to teach it.
 
 ### So that's it
 
