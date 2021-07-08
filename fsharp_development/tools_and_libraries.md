@@ -1,6 +1,16 @@
-# F# development
+# Tools and libraries for F# development
 
-I am a reasonably smart developer, but not too smart, so one of my secrets is to use tools and libraries that are _simple and effective_, so I can get my job done in spite of being lazy and not too smart. I can't stand it when some puffed up manager insists that our team of 3 developers use Team Foundation because it's from Microsoft. Then I'll leave. I am always on the lookout for more effective tools, and switch as soon as it pays off. That's also why I use F#, and not C#.
+If you are new not just to F#, but to programming in general, then some would have you believe it takes years of experience for you to be able to develop a professional application on your own, if not decades. Well, it does take time to learn the ropes, but don't let yourself be put down by defeatists. With the tools and resources available these days, you have a great chance of building good applications in record time.
+
+## Always on the lookout
+
+I am a reasonably smart developer, but not too smart, maybe just average among developers, so one of my secrets is to use tools and libraries that are _simple and effective_, so I can get my job done in spite of being lazy and not too smart. I can't stand it when some puffed up manager insists that our team of 3 developers use Team Foundation because it's from Microsoft. Then I'll leave. I am always on the lookout for more effective tools, and switch as soon as it pays off. That's also why I use F#, and not C#.
+
+In fact, it's a common problem that many developers do not want to change their ways, and stagnate in old outdated habits and practices. They can be highly productive in the sense that they write a lot of code, but their productivity never increases.
+
+- Learn to do things better and faster all the time.
+- Don't keep on doing manual repetitive tasks. Automate them instead.
+- Learn the basic practices of Agile Software Development. Many of these practices are contrary to what you might expect, and also contrary to what you might have been taught.
 
 ## Essential Tools
 

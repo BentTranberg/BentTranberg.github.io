@@ -17,7 +17,7 @@ This is some F# source.
 let s = "This is a string."
 ```
 
-![This is an image](C:\Bent\effektivitet.png)
+![This is an image](C:\test.png)
 
 And now a footnote!
 
