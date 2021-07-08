@@ -2,7 +2,7 @@
 
 I'm only starting to create content here, so for now you won't find much. I'll start with some articles on Elmish.WPF.
 
-[How to create an Elmish.WPF application - part 1](elmish_wpf/get_started.md)
+[How to create an Elmish.WPF application - part 1](elmish_wpf/get_started_1.md)
 
 In part 1 I explain how to just get the simplest of demos up and running from scratch, just so that newcomers can get an impression of how things work.
 
