@@ -20,3 +20,9 @@ In part 2 I will
 
 [Tools and libraries](fsharp_tools_and_libraries.md)
 
+## Rants about nothing
+
+I write too many posts in forums, frequently rants about everything that is wrong in this world. Sometimes small observations. Sometimes grand (read: silly) visions. Sometimes a bit personal. They eventually become lost in time, so why not keep them here instead. That way they could last a bit longer, unless I delete them.
+
+ [Science and Sci-fi](rants\ScienceAndSciFi.md) 
+
