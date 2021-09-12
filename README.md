@@ -24,5 +24,5 @@ In part 2 I will
 
 I write too many posts in forums, frequently rants about everything that is wrong in this world. Sometimes small observations. Sometimes grand (read: silly) visions. Sometimes a bit personal. They eventually become lost in time, so why not keep them here instead. That way they could last a bit longer, unless I delete them.
 
- [SciFi and science](rants\SciFiAndScience.md) 
+ [Sci-fi and science](rants/sci-fi_and_science.md) 
 
